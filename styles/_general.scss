@@ -1,0 +1,33 @@
+@use "variables";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  background: variables.$bg-color;
+  color: variables.$font-color;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 115px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (max-width: 834px) {
+    max-width: 834px;
+    padding: 0 72px;
+  }
+
+  @media screen and (max-width: 375px) {
+    max-width: 375px;
+    padding: 0 30px;
+  }
+}
