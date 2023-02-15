@@ -1,4 +1,6 @@
-@use "reset";
+@import "variables";
+@import "general";
+@import "reset";
 
 .container {
     padding: 40px 115px 80px;
