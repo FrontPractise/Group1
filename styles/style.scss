@@ -3,10 +3,10 @@
 @import "reset";
 
 .container {
-    padding: 40px 115px 80px;
+    padding: 0 115px;
 
     @media screen and (max-width:1080px) {
-        padding: 0 72px 66px 72px;
+        padding: 0 72px;
     }
 }
 
@@ -24,7 +24,7 @@
         background-size: cover;
     }
 
-    // @media screen and (max-width:720px) {
+    // @media screen and (max-width:480px) {
 
     // }
 
