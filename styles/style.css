@@ -145,7 +145,7 @@ a {
 }
 
 .section-mashroom {
-  background: url(/images/background-desktop.jpg);
+  background: url(../images/background-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -154,7 +154,7 @@ a {
 
 @media screen and (max-width: 1080px) {
   .section-mashroom {
-    background: url(/images/tablet_bg.jpg);
+    background: url(../images/tablet_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,7 +163,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .section-mashroom {
-    background: url(/images/mobile_bg.jpg);
+    background: url(../images/mobile_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,14 +379,14 @@ a {
 }
 
 .section-mashroom:hover {
-  background: url(/images/gradient.jpg);
+  background: url(../images/gradient.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media screen and (max-width: 1080px) {
   .section-mashroom:hover {
-    background: url(/images/tablet_bg.jpg);
+    background: url(../images/tablet_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -395,7 +395,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .section-mashroom:hover {
-    background: url(/images/mobile_bg.jpg);
+    background: url(../images/mobile_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
