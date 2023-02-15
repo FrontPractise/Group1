@@ -115,6 +115,11 @@ q:after {
 .container {
   padding: 40px 115px 80px;
 }
+@media screen and (max-width: 1080px) {
+  .container {
+    padding: 0 72px 66px 72px;
+  }
+}
 
 .section-mashroom {
   background: url(/images/background-desktop.jpg);
@@ -122,6 +127,14 @@ q:after {
   background-size: cover;
   height: 100vh;
   position: relative;
+}
+@media screen and (max-width: 1080px) {
+  .section-mashroom {
+    background: url(/images/tablet_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 .section-mashroom-hover {
@@ -181,9 +194,10 @@ q:after {
   cursor: pointer;
 }
 .section-mashroom-hover-left_button:hover {
-  background: #A259FF;
+  background: #6111ca;
   border: none;
   color: #ffffff;
+  border: 1px solid #fff;
 }
 .section-mashroom-hover-left_button:hover > .button-eye {
   stroke: #FFFFFF;

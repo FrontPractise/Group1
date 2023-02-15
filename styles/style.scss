@@ -2,6 +2,10 @@
 
 .container {
     padding: 40px 115px 80px;
+
+    @media screen and (max-width:1080px) {
+        padding: 0 72px 66px 72px;
+    }
 }
 
 .section-mashroom {
@@ -10,9 +14,19 @@
     background-size: cover;
     height: 100vh;
     position: relative;
+
+    @media screen and (max-width:1080px) {
+        background: url(/images/tablet_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    // @media screen and (max-width:720px) {
+
+    // }
+
 }
-
-
 
 
 .section-mashroom-hover {
@@ -78,9 +92,10 @@
         }
 
         &_button:hover {
-            background: #A259FF;
+            background: #6111ca;
             border: none;
             color: #ffffff;
+            border: 1px solid #fff;
 
             >.button-eye {
                 stroke: #FFFFFF;
