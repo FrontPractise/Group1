@@ -21,7 +21,7 @@ body {
     padding: 0 72px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
   .container {
     padding: 0 30px;
   }
@@ -169,7 +169,7 @@ a {
     gap: 30px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
   .space-section__holder {
     display: block;
     background: transparent;
@@ -186,9 +186,15 @@ a {
   border-radius: 20px;
   object-fit: contain;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
   .space-section__img img {
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .space-section__img img {
+    height: 80%;
+    object-fit: cover;
   }
 }
 .space-section__headline {
@@ -232,7 +238,7 @@ a {
     max-width: 50%;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
   .space-section__text-form {
     max-width: 100%;
   }
@@ -260,7 +266,7 @@ a {
     height: 46px;
     padding: 12px;
     margin-bottom: 16px;
-    max-width: 100%;
+    min-width: 128px;
     width: 100%;
   }
 }
