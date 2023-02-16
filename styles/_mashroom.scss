@@ -214,8 +214,10 @@
                 .hours,
                 .minutes,
                 .seconds {
+                    font-family: 'Space Mono',
+                        monospace;
                     font-weight: 700;
-                    font-size: 38px;
+                    font-size: 36px;
                     line-height: 120%;
                     text-transform: capitalize;
                     color: #FFFFFF;
