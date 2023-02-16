@@ -48,6 +48,7 @@
     }
 
     &-item {
+        overflow: hidden;
         background: variables.$bg-second-color;
         border-radius: 20px;
         padding: 10px 30px 30px 30px;
