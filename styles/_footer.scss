@@ -1,0 +1,150 @@
+@use "variables";
+
+.container-footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+    gap: 30px;
+
+
+    @media screen and (max-width: 1080px) {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin-bottom: 30px;
+    }
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 10px;
+
+    @media screen and (max-width: 1080px) {
+        margin-bottom: 30px;
+    }
+}
+
+footer {
+    background: variables.$bg-second-color;
+    padding-top: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: variables.$footer-color-text;
+}
+
+footer h5 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: variables.$font-color;
+    padding-bottom: 25px;
+
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: variables.$footer-color-text;
+}
+
+.footer-explore-item:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+#footer-form-input {
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2B2B;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 46px;
+        margin-bottom: 16px;
+    }
+
+
+}
+
+.footer-explore {
+    @media screen and (max-width: 1080px) {
+        margin-bottom: 30px;
+    }
+}
+
+#footer-form-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    height: 60px;
+    width: 45%;
+    border-radius: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: variables.$accent-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 480px) {
+        position: static;
+        width: 100%;
+        height: 46px;
+    }
+}
+
+#footer-form-button svg {
+    display: none;
+
+    @media screen and (max-width: 480px) {
+        display: flex;
+        margin-right: 12px;
+    }
+}
+
+.footer-form {
+    position: relative;
+
+    @media screen and (max-width: 1080px) {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 480px) {
+        position: static;
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+}
+
+.copyright {
+    padding-top: 20px;
+    border-top: 1px solid #858584
+}
