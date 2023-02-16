@@ -376,6 +376,7 @@ q:after {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  background-position: center;
   position: relative;
 }
 @media screen and (max-width: 1080px) {
@@ -583,6 +584,7 @@ q:after {
   background: url(../images/gradient.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 @media screen and (max-width: 1080px) {
   .section-mashroom:hover {
